@@ -1,0 +1,17 @@
+# Datos y resultados pesados
+datasets/*/images/
+datasets/*/labels/
+datasets/*.zip
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store

@@ -1,0 +1,8 @@
+# Hiperparámetros base. Ajustar según resultados.
+modelo_base: yolo11n.pt    # n = liviano, pensado para celular
+epochs: 100
+imgsz: 640
+batch: 16
+patience: 20               # corta si no mejora en 20 épocas
+project: runs
+nombre: v1
